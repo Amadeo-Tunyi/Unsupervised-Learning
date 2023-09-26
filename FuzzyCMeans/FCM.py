@@ -4,8 +4,6 @@ import matplotlib.pyplot as plt
 import random
 import operator
 import math
-from sklearn import datasets
-from fcmeans import FCM
 #note that this code works for numpy arrays, but can easily be fine tuned for dataframes
 def mu(k, dataset):
     SEED =42
